@@ -1,0 +1,24 @@
+# 敏感 / 用户数据
+.env
+*.log
+发布日志_*.log
+
+# Chrome 登录态 / 缓存
+google-chrome-xvfb/
+Singleton*
+
+# OCR 模型（首次运行自动下载）
+.paddlex/
+official_models/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 本地需求文件（含业务内容，不入库）
+2说明
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
